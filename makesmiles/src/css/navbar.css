@@ -1,0 +1,25 @@
+*{
+
+}
+.sublinks{
+    display: none !important;
+  
+}
+.navbar .links > ul li:hover .sublinks {
+    display: block !important;
+    position: absolute !important;;
+    margin-left: -1rem;
+  
+}
+.navbar .links > ul li:hover .sublinks li {
+    position: relative;
+    margin-left: -1rem;
+    padding: 8px 10px !important;
+    border-radius: none !important;
+    text-decoration: none !important;
+    border-radius: 10px !important;
+    margin: 9px 0 !important;
+    background-color: #e74c3c !important;
+    color: white !important;
+    
+}
