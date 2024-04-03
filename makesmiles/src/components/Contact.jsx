@@ -18,7 +18,7 @@ const styel ={
     e.preventDefault();
     await axios
       .post(
-        `${window.location.origin}/api/v1/message/send`,
+        "http://localhost:4000/api/v1/message/send",
         { name, email, phone, message },
         {
           withCredentials: true,
