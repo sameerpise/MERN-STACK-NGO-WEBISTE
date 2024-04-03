@@ -18,7 +18,7 @@ const Contact = () => {
     e.preventDefault();
     await axios
       .post(
-        "http://localhost:4000/api/v1/Donet",
+        `${window.location.origin}/api/v1/Donet`,
         { name, email,phone,amount, message },
         {
           withCredentials: true,
